@@ -1,0 +1,28 @@
+msiexec.exe /i C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Software\New reliicnewrelic-agent-win-x86-VERSION.msi /qb NR_LICENSE_KEY=4212c86e3a34bec4bb7530b4759fb2daFFFFNRAL INSTALLLEVEL=1
+
+msiexec.exe /i C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Software\newrelic-agent-win-x86-VERSION.msi /qb NR_LICENSE_KEY=4212c86e3a34bec4bb7530b4759fb2daFFFFNRAL ADDLOCAL=OPTION_1, OPTION_2
+
+CORECLR_NEWRELIC_HOME C:\ProgramData\New Relic\.NET Agent\
+
+$env:CORECLR_NEWRELIC_HOME = "C:\Program Files\New Relic\.NET Agent\"
+
+
+$env:NEWRELIC_INSTALL_PATH=C:\Program Files\New Relic\.NET Agent\
+C:\Program Files\New Relic\.NET Agent\NewRelic.Profiler.dll
+
+
+NEW_RELIC_LICENSE_KEY=4212c86e3a34bec4bb7530b4759fb2daFFFFNRAL
+
+NEW_RELIC_APP_NAME=NombreDeTuApp
+$env:NEW_RELIC_LICENSE_KEY ='4212c86e3a34bec4bb7530b4759fb2daFFFFNRAL'
+
+CORECLR_ENABLE_PROFILING -> 1
+CORECLR_PROFILER -> {36032161-FFC0-4B61-B559-F6C5D41BAE5A}
+NEW_RELIC_LICENSE_KEY -> 4212c86e3a34bec4bb7530b4759fb2daFFFFNRAL
+CORECLR_NEWRELIC_HOME -> C:\ProgramData\New Relic\.NET Agent\
+NEWRELIC_INSTALL_PATH -> C:\Program Files\New Relic\.NET Agent\
+
+dotnet run --project .\ruta\de\tu\aplicacion.csproj 
+
+[Error] 2025-03-23 03:30:12 The global newrelic.config file was not found at: C:\ProgramData\New Relic\.NET Agent\
+[Error] 2025-03-23 03:30:12 An exception was thrown while initializing the profiler. The profiler will be detached now.
