@@ -38,6 +38,11 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapGet("/force-error", (HttpContext context) =>
+{
+    throw new Exception("Simulated error for CodeStream");
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
