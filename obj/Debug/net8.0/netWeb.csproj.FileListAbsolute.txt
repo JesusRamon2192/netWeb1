@@ -19,6 +19,7 @@ C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\net
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\netWeb.csproj.CoreCompileInputs.cache
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\netWeb.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\netWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\netWeb.sourcelink.json
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Jesus Ramon\OneDrive - SOPRIS TECHNOLOGIES, INC\Apps\Banbien\dotNet\netWeb\obj\Debug\net8.0\staticwebassets\msbuild.netWeb.Microsoft.AspNetCore.StaticWebAssets.props
