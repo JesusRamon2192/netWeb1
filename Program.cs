@@ -40,7 +40,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapGet("/force-error", (HttpContext context) =>
 {
-    throw new Exception("Simulated error for CodeStream");
+    throw new Exception("Simulated error for CodeStreamYisusCode");
 });
 
 app.Run();
