@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("netWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d9a74bfac4330deb2efb284e169839d61ca765")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d670c3dec3ab41d69b436a856c0ecd2261cdf9f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("netWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("netWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

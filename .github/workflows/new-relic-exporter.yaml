@@ -1,0 +1,26 @@
+name: new-relic-exporter
+
+on:
+  workflow_run:
+    workflows: ['*']
+    types: [completed]
+
+env:
+  GHA_TOKEN: ${{ secrets.GITHUB_TOKEN }} # O usa ${{ secrets.GHA_TOKEN }} si estás usando PAT
+  NEW_RELIC_LICENSE_KEY: ${{ secrets.NEW_RELIC_LICENSE_KEY }}
+  GHA_RUN_ID: ${{ github.event.workflow_run.id }}
+  GHA_RUN_NAME: ${{ github.event.workflow_run.name }}
+  # GHA_CUSTOM_ATTS: '{"mi_atributo1":"valor1", "mi_atributo2":42}'
+  # GHA_EXPORT_LOGS: 'false'
+  # GHA_DEBUG: ${{ secrets.GHA_DEBUG }}
+
+jobs:
+  new-relic-exporter:
+    name: new-relic-exporter
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Export to New Relic
+        uses: newrelic-experimental/gha-new-relic-exporter@1.0.1
